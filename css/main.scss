@@ -1,0 +1,173 @@
+$azul-color: #3CB1F6;
+$gris-text: #595959;
+$border-gris: 1px solid #bfbfbf;
+$text-white: #FFFFFF;
+$text-gris: #999999;
+$texto: Lato;
+.navbar{
+	background-color: white;
+	border-bottom: white;
+	font-family: $texto;
+	.logo{
+		width: 60%;
+		height:60%;
+		margin-left: 100px;
+	}
+	.collapse{
+	color: $gris-text;
+	font-size: 13px;
+	margin-right: 100px;
+	}
+}
+.container{
+	color: $text-white;
+	font-family: $texto;
+	h1{
+		margin-top: 100px;
+	}
+	p{
+		font-size: 13px;
+		margin-top: 30px;
+		i{
+			font-size: 10px;
+			font-weight: bold;
+			margin-left: 10px;	
+		}
+		a{
+			color: white;
+		}
+	}
+	.btn{
+		border-radius: 28px;
+		padding: 6px 20px;
+		border: 1px solid $azul-color;
+		font-weight: bold;
+		font-size: 12px;
+		margin-left: 5px;
+	}
+	.btn:hover{
+		background-color: #369fdd;
+	}
+	.btn-primary{
+		background-color: $azul-color;
+	}
+	.btn-default{
+		background-color: transparent;
+		color: $azul-color;
+	}
+}
+
+.strategy{
+	background: url(../images/1920x665-1.jpg);
+	background-size: cover;
+	>div{
+		background-color: rgba(0,0,0,0.5);
+		padding: 0 0 160px 0;
+		margin-top: -20px;
+	}
+	
+}
+
+.optimize{
+	margin-top: 50px;
+	padding: 100px 0 100px 0;
+	color: $text-gris;
+	font-family: $texto;
+	border-top: $border-gris;
+	border-left: $border-gris;
+	.celular{
+		width:70%;
+		height: 65%;
+		margin-left: 180px;
+	}
+	h1{
+		margin-top: -5px;
+		font-size: 22px;
+	}
+	p{
+		margin-top: -5px;
+		font-size: 13px;
+	}
+	b{
+		color: $azul-color;
+	}
+	.btn{
+		border-radius: 28px;
+		padding: 6px 20px;
+		border: 1px solid $azul-color;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	.btn:hover{
+		background-color: #369fdd;
+	}
+	.btn-default{
+		background-color: transparent;
+		color: $azul-color;
+	}
+	
+}
+
+.recreate{
+	font-family: $texto;
+	padding: 100px 0 100px 0;
+	color: $text-gris;
+	.ll{
+		background-color: #F2F2F2;
+	}
+	.phone{
+		width: 55%;
+		height: 55%;
+		position: relative;
+		left: 250px;
+		top: 110px;
+	}
+	h1{
+		font-size: 25px;
+		text-align: center;
+	}
+	#mark{
+		margin-top: -5px;
+		font-size: 13px;
+		text-align: center;
+	}
+	h2{
+		font-size: 18px;
+		font-weight: bold;
+		margin-top: 40px;
+		margin-left: 80px;
+
+	}
+	#app{
+		font-size: 11px;
+		margin-left: 80px;
+		margin-top: -5px;
+		
+	}
+}
+.social{
+	color: $text-gris;
+	text-align: center;
+	font-size: 10px;
+	font-family: $texto;
+	span{
+		width: 100px;
+		height: 100px;
+	    -moz-border-radius: 90px;
+	    -webkit-border-radius: 90px;
+	    border-radius: 90px;
+	    color: $azul-color;
+	    font-size: 15px;
+	    border: 1px solid $azul-color;
+	    padding: 5px 10px 5px 10px;
+	    a{
+	    	color: $azul-color;
+	    }
+	}
+	span:hover{
+		background-color: #369fdd;
+	}
+	b{
+	    	color: $azul-color;
+	    }
+}
